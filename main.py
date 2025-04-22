@@ -1,6 +1,5 @@
-def main():
-    print("Hello from kousen-procon-helper!")
+import random_problem_generator
+import interface
 
-
-if __name__ == "__main__":
-    main()
+random_problem_generator.create_random_problem_json(output_file="problem.json")
+interface.interface_run()
